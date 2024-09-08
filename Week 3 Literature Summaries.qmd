@@ -1,0 +1,64 @@
+---
+title: "CFDS Week 3"
+author: "Sikes, Laura"
+format: html
+editor: visual
+---
+
+<b>Article 1</b>
+
+Olsen, M.A., Tian, F., Wallace, A.E., Nickel, K.B., Warren, D.K., Fraser, V.J., … & Hamilton, B.H. (2017). Use of quantile regression to determine the impact on total health care costs of surgical site infections following common ambulatory procedures.  *Annals of Surgery, 265*(2), 331-9. doi:10.1097/SLA.0000000000001590
+
+What’s the goal of this paper?
+
+The goal is to identify surgical site infection costs for select ambulatory surgical procedures.
+
+Why is it important?
+
+It’s important because not much was currently known about such costs.  It’s important to the project in illustrating a real-world healthcare-related quantile regression application.
+
+How is it solved?  - methods
+
+Authors used quantile regression in a retrospective cohort study using data from insurer claims.  They categorized serious infections as those occurring in hospital or needing follow-up surgery.
+
+Results / limitations
+
+Intuitively, the authors found the more serious surgical infections were the most costly.  Authors attributed quantile regression with the ability to hone in on different factors associated with costs for the serious surgical infections in the upper tail.  Limitations included misclassifications of coinfections due to coding errors and the vulnerability of ICD-9 coding leading to decreased sensitivity.
+
+<b>Article 2</b>
+
+Buhai, S. (2005). Quantile regression: overview and selected applications. *Ad Astra*, *4*(4), 1-17.
+
+What’s the goal of this paper?
+
+The goal is to explain the basics of quantile regression and its applications. 
+
+Why is it important?
+
+The author notes that an advantage of quantile regression is that it provides robust estimates.  He notes that these estimates are distribution-free, but are vulnerable to high sensitivity to observation contamination.  He provides two examples of applications.  It seems the author has a real affection for quantile regression to the point of defending it against other articles which he views as unfairly partial to linear regression. 
+
+The author compares three studies from different authors trying to answer the same question about unemployment insurance policies using different methods, and finds that quantile regression provides the most flexibility and the most insights into individual regions of the distribution.
+
+Results / limitations
+
+The author seems to view as the article’s sole limitation a lack of more space to provide additional examples of the myriad applications of quantile regression which was so sweet I stalked him online and found out he tweets like this about chess:
+
+![](images/image.png){width="250"}
+
+![](images/image0.jpeg){width="250"}
+
+<b>Article 3</b>
+
+Waldmann, E. (2018). Quantile regression: A short story on how and why. *Statistical Modelling, 18*(3-4), 203-18.
+
+What is the goal of the article?
+
+The author’s goal is to describe quantile regression applications.
+
+Why is it important?
+
+The author uses BMI data to illustrate the usefulness of quantile regression when trying to answer questions about the outer portions of a distribution, which in this case would be the boys with the highest BMI.  An interesting point the author makes is that while quantile regression is useful in exploring the outer limits of a dataset, it is not especially vulnerable to outliers. 
+
+Limitations
+
+Less a limitation than a remarkable choice, this article begins with a quote about probabilities from a novel whose protagonist unwittingly meets and falls in love with his own daughter.
